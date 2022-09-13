@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A14126B128D139EF00F7CE93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14126B028D139EF00F7CE93 /* AppDelegate.swift */; };
+		A14126B328D139EF00F7CE93 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14126B228D139EF00F7CE93 /* SceneDelegate.swift */; };
+		A14126B528D139EF00F7CE93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14126B428D139EF00F7CE93 /* ViewController.swift */; };
+		A14126B828D139EF00F7CE93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A14126B628D139EF00F7CE93 /* Main.storyboard */; };
+		A14126BA28D139F100F7CE93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A14126B928D139F100F7CE93 /* Assets.xcassets */; };
+		A14126BD28D139F100F7CE93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A14126BB28D139F100F7CE93 /* LaunchScreen.storyboard */; };
+		A14126C828D139F100F7CE93 /* iFlixsterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14126C728D139F100F7CE93 /* iFlixsterTests.swift */; };
+		A14126D228D139F100F7CE93 /* iFlixsterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14126D128D139F100F7CE93 /* iFlixsterUITests.swift */; };
+		A14126D428D139F100F7CE93 /* iFlixsterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14126D328D139F100F7CE93 /* iFlixsterUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A14126C428D139F100F7CE93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A14126A528D139EF00F7CE93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A14126AC28D139EF00F7CE93;
+			remoteInfo = iFlixster;
+		};
+		A14126CE28D139F100F7CE93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A14126A528D139EF00F7CE93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A14126AC28D139EF00F7CE93;
+			remoteInfo = iFlixster;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A14126AD28D139EF00F7CE93 /* iFlixster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iFlixster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A14126B028D139EF00F7CE93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A14126B228D139EF00F7CE93 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A14126B428D139EF00F7CE93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A14126B728D139EF00F7CE93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A14126B928D139F100F7CE93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A14126BC28D139F100F7CE93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A14126BE28D139F100F7CE93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A14126C328D139F100F7CE93 /* iFlixsterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iFlixsterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A14126C728D139F100F7CE93 /* iFlixsterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iFlixsterTests.swift; sourceTree = "<group>"; };
+		A14126CD28D139F100F7CE93 /* iFlixsterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iFlixsterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A14126D128D139F100F7CE93 /* iFlixsterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iFlixsterUITests.swift; sourceTree = "<group>"; };
+		A14126D328D139F100F7CE93 /* iFlixsterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iFlixsterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A14126AA28D139EF00F7CE93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A14126C028D139F100F7CE93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A14126CA28D139F100F7CE93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A14126A428D139EF00F7CE93 = {
+			isa = PBXGroup;
+			children = (
+				A14126AF28D139EF00F7CE93 /* iFlixster */,
+				A14126C628D139F100F7CE93 /* iFlixsterTests */,
+				A14126D028D139F100F7CE93 /* iFlixsterUITests */,
+				A14126AE28D139EF00F7CE93 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A14126AE28D139EF00F7CE93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A14126AD28D139EF00F7CE93 /* iFlixster.app */,
+				A14126C328D139F100F7CE93 /* iFlixsterTests.xctest */,
+				A14126CD28D139F100F7CE93 /* iFlixsterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A14126AF28D139EF00F7CE93 /* iFlixster */ = {
+			isa = PBXGroup;
+			children = (
+				A14126B028D139EF00F7CE93 /* AppDelegate.swift */,
+				A14126B228D139EF00F7CE93 /* SceneDelegate.swift */,
+				A14126B428D139EF00F7CE93 /* ViewController.swift */,
+				A14126B628D139EF00F7CE93 /* Main.storyboard */,
+				A14126B928D139F100F7CE93 /* Assets.xcassets */,
+				A14126BB28D139F100F7CE93 /* LaunchScreen.storyboard */,
+				A14126BE28D139F100F7CE93 /* Info.plist */,
+			);
+			path = iFlixster;
+			sourceTree = "<group>";
+		};
+		A14126C628D139F100F7CE93 /* iFlixsterTests */ = {
+			isa = PBXGroup;
+			children = (
+				A14126C728D139F100F7CE93 /* iFlixsterTests.swift */,
+			);
+			path = iFlixsterTests;
+			sourceTree = "<group>";
+		};
+		A14126D028D139F100F7CE93 /* iFlixsterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A14126D128D139F100F7CE93 /* iFlixsterUITests.swift */,
+				A14126D328D139F100F7CE93 /* iFlixsterUITestsLaunchTests.swift */,
+			);
+			path = iFlixsterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A14126AC28D139EF00F7CE93 /* iFlixster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A14126D728D139F100F7CE93 /* Build configuration list for PBXNativeTarget "iFlixster" */;
+			buildPhases = (
+				A14126A928D139EF00F7CE93 /* Sources */,
+				A14126AA28D139EF00F7CE93 /* Frameworks */,
+				A14126AB28D139EF00F7CE93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iFlixster;
+			productName = iFlixster;
+			productReference = A14126AD28D139EF00F7CE93 /* iFlixster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A14126C228D139F100F7CE93 /* iFlixsterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A14126DA28D139F100F7CE93 /* Build configuration list for PBXNativeTarget "iFlixsterTests" */;
+			buildPhases = (
+				A14126BF28D139F100F7CE93 /* Sources */,
+				A14126C028D139F100F7CE93 /* Frameworks */,
+				A14126C128D139F100F7CE93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A14126C528D139F100F7CE93 /* PBXTargetDependency */,
+			);
+			name = iFlixsterTests;
+			productName = iFlixsterTests;
+			productReference = A14126C328D139F100F7CE93 /* iFlixsterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A14126CC28D139F100F7CE93 /* iFlixsterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A14126DD28D139F100F7CE93 /* Build configuration list for PBXNativeTarget "iFlixsterUITests" */;
+			buildPhases = (
+				A14126C928D139F100F7CE93 /* Sources */,
+				A14126CA28D139F100F7CE93 /* Frameworks */,
+				A14126CB28D139F100F7CE93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A14126CF28D139F100F7CE93 /* PBXTargetDependency */,
+			);
+			name = iFlixsterUITests;
+			productName = iFlixsterUITests;
+			productReference = A14126CD28D139F100F7CE93 /* iFlixsterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A14126A528D139EF00F7CE93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					A14126AC28D139EF00F7CE93 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					A14126C228D139F100F7CE93 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = A14126AC28D139EF00F7CE93;
+					};
+					A14126CC28D139F100F7CE93 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = A14126AC28D139EF00F7CE93;
+					};
+				};
+			};
+			buildConfigurationList = A14126A828D139EF00F7CE93 /* Build configuration list for PBXProject "iFlixster" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A14126A428D139EF00F7CE93;
+			productRefGroup = A14126AE28D139EF00F7CE93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A14126AC28D139EF00F7CE93 /* iFlixster */,
+				A14126C228D139F100F7CE93 /* iFlixsterTests */,
+				A14126CC28D139F100F7CE93 /* iFlixsterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A14126AB28D139EF00F7CE93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A14126BD28D139F100F7CE93 /* LaunchScreen.storyboard in Resources */,
+				A14126BA28D139F100F7CE93 /* Assets.xcassets in Resources */,
+				A14126B828D139EF00F7CE93 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A14126C128D139F100F7CE93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A14126CB28D139F100F7CE93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A14126A928D139EF00F7CE93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A14126B528D139EF00F7CE93 /* ViewController.swift in Sources */,
+				A14126B128D139EF00F7CE93 /* AppDelegate.swift in Sources */,
+				A14126B328D139EF00F7CE93 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A14126BF28D139F100F7CE93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A14126C828D139F100F7CE93 /* iFlixsterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A14126C928D139F100F7CE93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A14126D228D139F100F7CE93 /* iFlixsterUITests.swift in Sources */,
+				A14126D428D139F100F7CE93 /* iFlixsterUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A14126C528D139F100F7CE93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A14126AC28D139EF00F7CE93 /* iFlixster */;
+			targetProxy = A14126C428D139F100F7CE93 /* PBXContainerItemProxy */;
+		};
+		A14126CF28D139F100F7CE93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A14126AC28D139EF00F7CE93 /* iFlixster */;
+			targetProxy = A14126CE28D139F100F7CE93 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A14126B628D139EF00F7CE93 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A14126B728D139EF00F7CE93 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A14126BB28D139F100F7CE93 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A14126BC28D139F100F7CE93 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A14126D528D139F100F7CE93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A14126D628D139F100F7CE93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A14126D828D139F100F7CE93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JRZ4X4YT7A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iFlixster/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.andylabrada.iFlixster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A14126D928D139F100F7CE93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JRZ4X4YT7A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iFlixster/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.andylabrada.iFlixster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A14126DB28D139F100F7CE93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JRZ4X4YT7A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.andylabrada.iFlixsterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iFlixster.app/iFlixster";
+			};
+			name = Debug;
+		};
+		A14126DC28D139F100F7CE93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JRZ4X4YT7A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.andylabrada.iFlixsterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iFlixster.app/iFlixster";
+			};
+			name = Release;
+		};
+		A14126DE28D139F100F7CE93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JRZ4X4YT7A;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.andylabrada.iFlixsterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iFlixster;
+			};
+			name = Debug;
+		};
+		A14126DF28D139F100F7CE93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JRZ4X4YT7A;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.andylabrada.iFlixsterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iFlixster;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A14126A828D139EF00F7CE93 /* Build configuration list for PBXProject "iFlixster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A14126D528D139F100F7CE93 /* Debug */,
+				A14126D628D139F100F7CE93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A14126D728D139F100F7CE93 /* Build configuration list for PBXNativeTarget "iFlixster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A14126D828D139F100F7CE93 /* Debug */,
+				A14126D928D139F100F7CE93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A14126DA28D139F100F7CE93 /* Build configuration list for PBXNativeTarget "iFlixsterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A14126DB28D139F100F7CE93 /* Debug */,
+				A14126DC28D139F100F7CE93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A14126DD28D139F100F7CE93 /* Build configuration list for PBXNativeTarget "iFlixsterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A14126DE28D139F100F7CE93 /* Debug */,
+				A14126DF28D139F100F7CE93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A14126A528D139EF00F7CE93 /* Project object */;
+}
