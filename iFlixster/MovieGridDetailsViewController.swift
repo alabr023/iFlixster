@@ -1,14 +1,14 @@
 //
-//  MovieDetailsViewController.swift
+//  MovieGridDetailsViewController.swift
 //  iFlixster
 //
-//  Created by Andy on 9/19/22.
+//  Created by Andy on 9/21/22.
 //
 
 import UIKit
 import AlamofireImage
 
-class MovieDetailsViewController: UIViewController {
+class MovieGridDetailsViewController: UIViewController {
 
     var movie: [String:Any]!
     
@@ -20,8 +20,6 @@ class MovieDetailsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     
-        
-        
         titleLabel.text = movie["title"] as? String
         titleLabel.sizeToFit()
         
@@ -38,9 +36,6 @@ class MovieDetailsViewController: UIViewController {
         let backdropUrl = URL(string: "https://image.tmdb.org/t/p/w1280" + backdropPath)
         
         backdropView.af.setImage(withURL: backdropUrl!)
-
-        
-        
-        // Do any additional setup after loading the view.
     }
+
 }

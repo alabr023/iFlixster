@@ -63,4 +63,24 @@ class MovieGridViewController: UIViewController, UICollectionViewDelegate, UICol
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return movies.count
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Get the new view controller using segue.destination.
+        // Pass the selected object to the new viewontroller.
+        
+        print("Loading next screen")
+        
+        // Find the selected movie
+        
+        let cell = sender as! UICollectionViewCell
+        let indexPath = collectionView.indexPath(for: cell)!
+        let movie = movies[indexPath.row]
+        
+        // Pass the selected movie to the details view controller
+        
+        let detailsViewController = segue.destination as! MovieGridDetailsViewController
+        
+        detailsViewController.movie = movie
+        collectionView.deselectItem(at: indexPath, animated: true)
+    }
 }
