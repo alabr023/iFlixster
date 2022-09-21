@@ -16,7 +16,7 @@ iFlixster is an app that allows users to browse movies from the [The Movie Datab
 
 ### App Walkthrough GIF
 
-<img src="https://i.imgur.com/P2uTOzk.gif" width=250><br>
+<img src="https://i.imgur.com/gfSs6U6.gif" width=250><br>
 
 ### Notes
 Describe any challenges encountered while building the app.
