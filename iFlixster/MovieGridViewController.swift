@@ -9,10 +9,6 @@ import UIKit
 import AlamofireImage
 
 class MovieGridViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
-    
-    
-    
-    
 
     @IBOutlet weak var collectionView: UICollectionView!
     
@@ -48,8 +44,6 @@ class MovieGridViewController: UIViewController, UICollectionViewDelegate, UICol
             }
         }
         task.resume()
-
-        // Do any additional setup after loading the view.
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -69,15 +63,4 @@ class MovieGridViewController: UIViewController, UICollectionViewDelegate, UICol
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return movies.count
     }
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
